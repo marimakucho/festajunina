@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Cadastro Festa Junina</title>
+<link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+  <div class="registration-container">
+    <div class="registration-header">
+      <h2 class="titulo2">Cadastro para a Festa Junina</h2>
+      <p class="introduçao">Nóis vai fazê um arraía danado di bom, sô!
+E pra festança ficá mió, espero ocê com seu traje caipira
+e fazendo nosso cadastro!</p>
+    </div>
+    <form class="seila" action="agradecimento.html">
+      <label class="form-label" for="name">Nome:</label>
+      <input class="form-input" type="text" id="name" name="name" required>
+
+      <label class="form-label" for="email">Email:</label>
+      <input class="form-input" type="email" id="email" name="email" required>
+
+      <label class="form-label" for="age">Idade:</label>
+      <input class="form-input" type="number" id="age" name="age" required>
+
+      <label class="form-label" for="food">Comida Favorita:</label>
+      <select class="form-select" id="food" name="food" required>
+        <option value="pipoca">Pipoca</option>
+        <option value="quentao">Quentão</option>
+        <option value="maispipoca">Mais Pipoca</option>
+      </select>
+
+      <label class="form-label" for="attendance">Presença:</label>
+      <input type="radio" id="attendance-yes" name="attendance" value="yes" required>
+      <label for="attendance-yes">Sim</label>
+      <input type="radio" id="attendance-no" name="attendance" value="no" required>
+      <label for="attendance-no">Não</label>
+      <br>
+      <br>
+      <br>
+<br>
+      <button class="form-submit-btn" type="submit">Confirmar Cadastro</button>
+      </form>
+  </div>
+</body>
+</html>
